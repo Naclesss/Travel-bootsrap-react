@@ -1,0 +1,269 @@
+header {
+    background-image: url(https://images01.nicepage.com/04/c9/04c92f4b1888be1f59c0cf8549526806.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+  
+    h1 {
+      font-size: 60px !important;
+  
+      @media (max-width: 992px) {
+        font-size: 60px !important;
+      }
+    }
+  
+    p {
+      font-size: 18px !important;
+  
+      @media (max-width: 992px) {
+        font-size: 18px !important;
+      }
+    }
+  }
+  
+  a {
+    color: white !important;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 30px;
+  }
+  
+
+  
+  .header-content {
+height: 80vh;
+  
+    button {
+      background-image: linear-gradient(135deg, #478ac9, #24d9ea);
+      border: none;
+      padding: 14px 32px 15px !important;
+      font-family: "Open Sans", sans-serif;
+      width: 200px;
+      
+  
+      @media (max-width: 992px) {
+        padding: 10px 30px 10px !important;
+        font-size: 18px;
+      }
+    }
+  
+    p {
+      width: 35%;
+  
+      @media (max-width: 878px) {
+        width: 100%;
+      }
+    }
+  }
+ 
+  .navbar-brand {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .title {
+    h1 {
+      font-size: 36px;
+      font-family: "Roboto", sans-serif;
+      color: #478ac9 !important;
+      font-weight: 400;
+  
+      @media (max-width: 992px) {
+        font-size: 30px !important;
+      }
+    }
+  
+    p {
+      font-size: 20px;
+      font-family: "Open Sans", sans-serif;
+      color: #4c7397;
+      font-style: italic;
+  
+      @media (max-width: 992px) {
+        font-size: 18px;
+      }
+    }
+  }
+  
+  .country {
+    img {
+      width: 100%;
+      height: 45vh;
+      object-fit: cover;
+    }
+  
+    .country-content {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      padding: 20px 15px;
+      background-color: white !important;
+  
+      p {
+        margin-bottom: 0;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-style: italic;
+  
+        @media (max-width: 1165px) {
+          font-size: 17px;
+        }
+  
+        @media (max-width: 917px) {
+          font-size: 13px;
+        }
+      }
+  
+      i {
+        color: #c0c0c0;
+        font-size: 35px;
+      }
+  
+      @media (max-width: 917px) {
+        gap: 7px;
+      }
+    }
+  }
+  
+  .discount {
+    background-image: url(https://images01.nicepage.com/8d/98/8d98d9f895d45f1a7a10b3f4152d0a2a.jpeg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  
+    .discount-overlay {
+      background-color: rgba(19, 50, 88, 0.3);
+      height: 100%;
+    }
+  
+    .discount-content {
+      color: white;
+      height: 100%;
+    
+  
+      h2 {
+        font-size: 48px;
+  
+        @media (max-width: 566px) {
+          font-size: 36px;
+        }
+      }
+  
+      p {
+        text-align: end;
+        font-size: 20px;
+       
+  
+        @media (max-width: 566px) {
+          font-size: 16px !important;
+        }
+      }
+  
+      button {
+        background: none;
+        border: 2px solid white;
+        border-radius: 0;
+        padding: 10px 30px;
+      }
+    }
+  }
+  
+  .section-2 {
+    p:nth-child(1) {
+      margin-top: 65px;
+  
+      @media (min-width: 767px) and (max-width: 1214px) {
+        margin-top: 93px;
+      }
+    }
+  }
+  
+  .activity {
+    p {
+      color: #478ac9;
+    }
+  }
+  
+  .news-letter {
+    button {
+      padding: 8px 20px;
+      background-color: #478ac9;
+      border-radius: 0;
+      border: none;
+    }
+  
+    input {
+      background-color: #F2F2F2;
+      border: none;
+    }
+  }
+  
+  .contacts {
+    i {
+      font-size: 20px;
+      color: #999999;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .countries {
+      .row {
+        margin: 0px 120px !important;
+      }
+    }
+  
+    .discount-content {
+      margin-right: 150px;
+    }
+  
+    .discount-content p {
+      width: 47%;
+    }
+  }
+  
+  @media (max-width: 566px) {
+    .discount-content h2 {
+      font-size: 36px;
+    }
+  
+    .discount-content p {
+      font-size: 16px !important;
+    }
+  }
+  
+ 
+  
+
+  
+ 
+    @media (max-width: 576px) {
+      nav {
+        .offcanvas {
+          padding: 1rem; 
+          max-width: 250px; 
+  
+          .offcanvas-body {
+            padding: 0.5rem; 
+  
+            ul.navbar-nav {
+              li.nav-item {
+                .nav-link {
+                  font-size: 14px; 
+                  padding: 0.5rem 0.75rem; 
+                }
+              }
+            }
+          }
+        }
+  
+        .navbar-toggler {
+          padding: 0.5rem 1rem; 
+        }
+  
+        .navbar-brand {
+          font-size: 20px; 
+        }
+      }
+    }
+  
+  
